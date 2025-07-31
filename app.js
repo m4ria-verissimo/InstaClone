@@ -88,3 +88,24 @@ if (formValues) {
   });
 }
 }
+function cadas(){
+    document.getElementById("nmr").value;
+    document.getElementById("sen").value;
+    document.getElementById("nc").value;
+    document.getElementById("nu").value;
+     Swal.fire({
+  
+    icon: "success",
+    title:"Cadastrado com sucesso!",
+    draggable: true
+    }).then(()=>{  
+    document.getElementById("nmr").value="";
+    document.getElementById("sen").value="";
+    document.getElementById("nc").value="";
+    document.getElementById("nu").value="";
+    });
+
+
+    
+
+    };
