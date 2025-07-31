@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <section >
+        <select id="langSelect" onchange="changeLang()">
+            <option value="pt">Portugues (Brasil)</option>
+            <option value="ig">Ingles</option>
+            <option value="es">Espanhol </option>
+        </select>
+    </section>
+    <div class="tudo">
+    <div class="dimg">
+    <img src="instagram.webp">
+    </div>
+     <section>
+        <input placeholder="Telefone, nome de usuario ou email " id="user" class="in" >
+     </section>
+     
+     <section>
+        <input type="password" placeholder="Senha" id="pass" class="in">
+     </section>
+     <br>
+     <section>
+        <button onclick="login()" id="login">Conecte-se</button>
+     </section>
+     
+    <section>
+         <p id="forgot" onclick="esq()" >Esqueceu a senha?</p>
+    </section>
+    <section>
+        <p id="cont"></p>  <p class="cd" id="sigunp"><a href="cadastrar.html" target="_blank"> Cadastrar-se </p></a>
+    </section>
+  <section class="menu" >
+   <P class="foot"><a href="https://www.meta.com/micro_site/url/?click_from_context_menu=true&country=BR&destination=https%3A%2F%2Fwww.meta.com%2F&event_type=click&last_nav_impression_id=1LIQpFEBvTcbd6nma&max_percent_page_viewed=9&max_viewport_height_px=642&max_viewport_width_px=1358&orig_http_referrer=https%3A%2F%2Fl.instagram.com%2F&orig_request_uri=https%3A%2F%2Fwww.meta.com%2Fabout%2F%3Futm_source%3Dabout.meta.com%26utm_medium%3Dredirect&region=latam&scrolled=false&session_id=0OPEeJkqyj1xAFIYU&site=about_meta">Meta</a></P>
+
+<P class="foot"><a href="https://about.instagram.com/"> Sobre</a></P>
+
+<p class="foot"><a href="https://help.instagram.com/" >Ajuda</a></p>
+
+<p class="foot"><a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Privacidade</a> </p>
+
+<p class="foot"><a href="https://help.instagram.com/581066165581870/">Termos</a></p>
+
+<p class="foot"><a href="https://www.instagram.com/explore/locations/?hl=pt-br)">Localizações</a></p>
+
+
+  </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
