@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+   
+}
+select{
+    border: none;
+    color: rgb(194, 191, 188);
+    background-color: black;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+     max-width:500px ;
+     min-width: 250px;
+     margin:auto;
+}
+img{
+    width: 200px;
+    height:80px;
+   }
+
+.dimg{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center ;
+}
+
+
+
+.in{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: rgb(63, 63, 63);
+  }
+  button{
+    background-color: hsl(240, 74%, 50%);
+    color:white;
+    width:200px ;
+    height:35px;
+    border-radius: 5px;
+  }
+  .cd{
+    font-size: 16px;
+    margin-left: 5px;
+    color: hsl(229, 92%, 61%);
+  }
+.in:hover{
+    font-size: 13px;
+    border: 1px solid white;
+}
+p:hover{
+    color: rgb(214, 214, 204);
+    
+
+}
+button:hover{
+    border: 1px solid;
+    font-size: 15px;
+}
+footer{
+   
+    display: flex;
+    align-items: flex-end;
+ 
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+   
+}
+.foot{
+    margin-top: 100px;
+    color:white;
+}
+.foot:hover{
+    border-bottom: 1px solid;
+    color:rgb(252, 247, 238) ;
+}
+a{
+    color: rgb(235, 224, 208);
+    text-decoration: none;
+}
+.menu{
+    margin-top:70px;
+ 
+}
+.tudo{
+    margin-top:10px;
+}
