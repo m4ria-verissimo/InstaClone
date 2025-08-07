@@ -5,6 +5,6 @@ Este é um projeto de clone visual da interface do Instagram, desenvolvido com H
 ## Tecnologias usadas
 - HTML
 - CSS
-
+- JAVASCRIPT
 ## Autor
 Maria Eduarda Verissimo
